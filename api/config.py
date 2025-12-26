@@ -8,7 +8,6 @@ class Config:
     PROPAGATE_EXCEPTIONS = True
     SESSION_TYPE = "filesystem"
     FILES_ROOT = os.getenv("FILES_ROOT", "/gcp-bucket")
-    STAGE_FILES_ROOT = os.getenv("STAGE_FILES_ROOT", "/tmp/stage")
 
     # API Settings
     API_TITLE = "Modula Files API"

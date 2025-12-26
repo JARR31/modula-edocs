@@ -14,8 +14,7 @@ services:
       - "8081:8080"
 
     volumes:
-      - gcp-bucket-dev:/gcp-bucket
-      - modula-stage:/tmp/stage
+      - /Users/juan-rodriguez/modula-edocs-transfer/.local/gcp-bucket:/gcp-bucket
       - ../api:/app/api
 
     networks:
